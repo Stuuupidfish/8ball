@@ -1,2 +1,3 @@
 # 8ball
-Answer key(s) for 8ball challenge
+Answer key for 8 ball challenge
+there are multiple ways to make 8 ball in python but this is one possibility
