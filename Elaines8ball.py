@@ -1,37 +1,37 @@
 import random
 
-answers = []
+answers = [
+    #affirmative answers
+    "It is certain",
+    "It is decidedly so",
+    "Without a doubt",
+    "Yes definitely",
+    "You may rely on it",
+    "As I see it, yes",
+    "Most likely",
+    "Outlook good",
+    "Yes",
+    "Signs point to yes",
+    
+    #non committal answers
+    "Reply hazy, try again",
+    "Ask again later",
+    "Better not tell you now",
+    "Cannot predict now",
+    "Concentrate and ask again",
+    
+    #negative answers
+    "Don't count on it",
+    "My reply is no",
+    "My sources say no",
+    "Outlook not so good",
+    "Very doubtful"
+    ]
 
-#affirmative answers
-answers.append("It is certain")
-answers.append("It is decidedly so")
-answers.append("Without a doubt")
-answers.append("Yes definitely")
-answers.append("You may rely on it")
-answers.append("As I see it, yes")
-answers.append("Most likely")
-answers.append("Outlook good")
-answers.append("Yes")
-answers.append("Signs point to yes")
-
-#non committal answers
-answers.append("Reply hazy, try again")
-answers.append("Ask again later")
-answers.append("Better not tell you now")
-answers.append("Cannot predict now")
-answers.append("Concentrate and ask again")
-
-#negative answers
-answers.append("Don't count on it")
-answers.append("My reply is no")
-answers.append("My sources say no")
-answers.append("Outlook not so good")
-answers.append("Very doubtful")
-
-#checking and making sure everything is where its supposed to be:
-    # print(answers)
-    # print(len(answers))
-    # print(answers[19])
+# checking and making sure everything is where its supposed to be:
+# print(answers)
+# print(len(answers))
+# print(answers[19])
 
 runProgram = True
 
@@ -51,5 +51,4 @@ while runProgram:
     input("Ask me a question and I will give you an answer \n")
     print(answers[pickRandomAnswer])
     endOrLoopProgram()
-
 
