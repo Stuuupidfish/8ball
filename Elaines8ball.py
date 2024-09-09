@@ -28,11 +28,6 @@ answers = [
     "Very doubtful"
     ]
 
-# checking and making sure everything is where its supposed to be:
-# print(answers)
-# print(len(answers))
-# print(answers[19])
-
 runProgram = True
 
 def endOrLoopProgram():
